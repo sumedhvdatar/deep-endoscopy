@@ -1,0 +1,2193 @@
+{
+    "name": "polyps kims",
+    "securityToken": "polyps kims Token",
+    "sourceConnection": {
+        "name": "kims polyps",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiN2Y4YjI0NzhjMmZjZGYwNTkzYzJkNGI5Y2Q3MmY0Yjc2NzAxODNiMGVkYmVjNGRjNTdmM2I0NjEzODYxZjcwM2ZjOWY2NjA0ODQyZmFmOWZiZWQyMTQyOWRjMjZmMDQ3NWIzNDQzZTM4ZGViN2I0ZWFhNzEwZmQ2Y2M2MDkzOWJmNmQ3ZDUxZjdmNjg5NTY0MGJkZmQ3NDQ1OTcyZTkzOCIsIml2IjoiYTdlN2I1NzFjYzA2YWUzNWIzMTYxZjMwOTRiZjAxZmU0ZmEzYjg2NTllMDY0MzNkIn0="
+        },
+        "id": "M71xaCl8e"
+    },
+    "targetConnection": {
+        "name": "kims polyps_annoated",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDNiNGYxYzE4MTE1ZDk3NGU3Mjg4YTg4ZTlmYjU1Y2YzYmM5OTBhMDU0MTdmZGI4NTk5NzNmZTI0OWQwMTNkZDJiZjM5N2FmMDEyOTQ0MjExZjU2NDkxZDNkNGI0OWUxOGExZWIwZmMzNjg3ZjA1NzYxMzc3ZDA2MDc4ODcwNTkzMzExMWU1YTliOWM1NjQxMTcyZTE1MDE2M2Q2NmI2MiIsIml2IjoiY2Y5YzY2Mzc2MjY2YjkxN2E2YjRmNzFjYWY4ZmYwN2FjYWE0ZGQyN2FlOWY1ZWY4In0="
+        },
+        "id": "O98ZswQx3"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "polyps",
+            "color": "#5db300"
+        }
+    ],
+    "id": "Xm8AJqOKQ",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "pascalVOC",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTNhNGY4NDk3NGNiZTY0NDFhMmU4NzFhYmUwZDM0NDJjYzVlNDJjZGVhYWY5NDE4NzU4OTM1YmY4NjM2MDI0N2MyNTRlYjE3NDlkMTkxNjkzMjdiZTExZTFjMWYyZDNlMWMzYTA2MDE5ZGJkYmYzMWRiZGZjYmRkYmVjY2U0MjU0NDUwNjA4OWU1NzhiMGNjNGUzNDk1MzVjM2M0ZjdiYyIsIml2IjoiNWQzM2YyMjRiOTQxZDY3YTQwYjZjZmM3YmE2MDRmODM1ZmE0MTBlYWQwYjU3MjBmIn0="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "e019fe287252646e7d2991b66bdb761b",
+    "assets": {
+        "a65bc86850e73070a2868799f6205222": {
+            "format": "BMP",
+            "id": "a65bc86850e73070a2868799f6205222",
+            "name": "img%20115518_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img%20115518_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "be2c114940532f278a1cc1b1d4dc209e": {
+            "format": "BMP",
+            "id": "be2c114940532f278a1cc1b1d4dc209e",
+            "name": "img101038_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img101038_5.BMP",
+            "size": {
+                "width": 349,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c7068a3ec9a2a8de93e2432faa371f32": {
+            "format": "BMP",
+            "id": "c7068a3ec9a2a8de93e2432faa371f32",
+            "name": "img1019087_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1019087_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "553772f450b073234a302c83f9845eb5": {
+            "format": "BMP",
+            "id": "553772f450b073234a302c83f9845eb5",
+            "name": "img1027983_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1027983_7.BMP",
+            "size": {
+                "width": 350,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5d348841c152942591c81c48d8afa416": {
+            "format": "BMP",
+            "id": "5d348841c152942591c81c48d8afa416",
+            "name": "img1027983_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1027983_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "70a5b6d53553ca89417e275d4d326344": {
+            "format": "BMP",
+            "id": "70a5b6d53553ca89417e275d4d326344",
+            "name": "img1042266_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1042266_15.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "57a21ea92dc405878f193e0840ac37b6": {
+            "format": "BMP",
+            "id": "57a21ea92dc405878f193e0840ac37b6",
+            "name": "img1042266_3.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1042266_3.BMP",
+            "size": {
+                "width": 350,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1ddb3234abebacb98287551bef8f6900": {
+            "format": "BMP",
+            "id": "1ddb3234abebacb98287551bef8f6900",
+            "name": "img1047001_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1047001_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "05991c7aaaca712456fd5ca25e06c880": {
+            "format": "BMP",
+            "id": "05991c7aaaca712456fd5ca25e06c880",
+            "name": "img1047001_3.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1047001_3.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "079c0a2689abf51b1ae66a58213337ed": {
+            "format": "BMP",
+            "id": "079c0a2689abf51b1ae66a58213337ed",
+            "name": "img1047001_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1047001_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 286
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1a01c94c9c5bcbad080924e086ef7897": {
+            "format": "BMP",
+            "id": "1a01c94c9c5bcbad080924e086ef7897",
+            "name": "img1047001_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1047001_5.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58ee3862670bca7576699df094fe76fe": {
+            "format": "BMP",
+            "id": "58ee3862670bca7576699df094fe76fe",
+            "name": "img1056699_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1056699_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 285
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f1d2e632c6b1d00598958ca091a80ade": {
+            "format": "BMP",
+            "id": "f1d2e632c6b1d00598958ca091a80ade",
+            "name": "img1102847_18.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1102847_18.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "acb5075ac40d5563ea1d7a5ac7987ec4": {
+            "format": "BMP",
+            "id": "acb5075ac40d5563ea1d7a5ac7987ec4",
+            "name": "img1108644_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1108644_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "04da2fa30e75d12477618b1ec774bd0d": {
+            "format": "BMP",
+            "id": "04da2fa30e75d12477618b1ec774bd0d",
+            "name": "img1113674_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1113674_1.BMP",
+            "size": {
+                "width": 349,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "96927dccc72144274896ec65e3df5b4b": {
+            "format": "BMP",
+            "id": "96927dccc72144274896ec65e3df5b4b",
+            "name": "img1115081_13.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1115081_13.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8d7d66b150f91e837f8c818a2b9cc72": {
+            "format": "BMP",
+            "id": "d8d7d66b150f91e837f8c818a2b9cc72",
+            "name": "img1115081_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1115081_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1d0e28f850b86f7fb1d9531726fd22c": {
+            "format": "BMP",
+            "id": "a1d0e28f850b86f7fb1d9531726fd22c",
+            "name": "img11228141_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img11228141_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cb0cacc110ef552a8a25e6f987de6347": {
+            "format": "BMP",
+            "id": "cb0cacc110ef552a8a25e6f987de6347",
+            "name": "img1122814_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1122814_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d03fac0619f4aa9f35f7a362746d63dd": {
+            "format": "BMP",
+            "id": "d03fac0619f4aa9f35f7a362746d63dd",
+            "name": "img1122814_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1122814_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "778025e2ad92f3adf9b3afa52bb5763f": {
+            "format": "BMP",
+            "id": "778025e2ad92f3adf9b3afa52bb5763f",
+            "name": "img1126492_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1126492_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "041765784d43b4bf4727c29f38df575e": {
+            "format": "BMP",
+            "id": "041765784d43b4bf4727c29f38df575e",
+            "name": "img1126492_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1126492_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aa0d164e5b36ff254d0fd6fb907510b5": {
+            "format": "BMP",
+            "id": "aa0d164e5b36ff254d0fd6fb907510b5",
+            "name": "img1126492_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1126492_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 287
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1534349cba468e07aaddbc903eda32b0": {
+            "format": "BMP",
+            "id": "1534349cba468e07aaddbc903eda32b0",
+            "name": "img11340591_14.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img11340591_14.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ce97e691dee350f586b3033a5efdd67b": {
+            "format": "BMP",
+            "id": "ce97e691dee350f586b3033a5efdd67b",
+            "name": "img11340591_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img11340591_15.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "14152b4f58bf5f7d403478d0e7a34bdb": {
+            "format": "BMP",
+            "id": "14152b4f58bf5f7d403478d0e7a34bdb",
+            "name": "img11340591_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img11340591_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ce722b12039cfece6d26828eb8320e96": {
+            "format": "BMP",
+            "id": "ce722b12039cfece6d26828eb8320e96",
+            "name": "img1161734_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1161734_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7dee3d0080fcb423fc8be1a16f654a7e": {
+            "format": "BMP",
+            "id": "7dee3d0080fcb423fc8be1a16f654a7e",
+            "name": "img1161734_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1161734_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8460d370b94f0cab511fba0e37a27d47": {
+            "format": "BMP",
+            "id": "8460d370b94f0cab511fba0e37a27d47",
+            "name": "img1161734_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1161734_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "244f3b4a7b0799ec37c3a1f89a47d3fb": {
+            "format": "BMP",
+            "id": "244f3b4a7b0799ec37c3a1f89a47d3fb",
+            "name": "img1174659_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1174659_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a36250a5f7f3e8c21b2a42af18c0b26": {
+            "format": "BMP",
+            "id": "5a36250a5f7f3e8c21b2a42af18c0b26",
+            "name": "img1175543_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1175543_5.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c0c8b7f37433f3a1cdb810e813fffca5": {
+            "format": "BMP",
+            "id": "c0c8b7f37433f3a1cdb810e813fffca5",
+            "name": "img1183175_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1183175_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "325abb2540885d402c367018b3fe129b": {
+            "format": "BMP",
+            "id": "325abb2540885d402c367018b3fe129b",
+            "name": "img1185418_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1185418_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0774dc34673f66dc20ed0725fa2500b6": {
+            "format": "BMP",
+            "id": "0774dc34673f66dc20ed0725fa2500b6",
+            "name": "img1187864_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1187864_20.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f559be30e17ae7b7bdbca38a40b53498": {
+            "format": "BMP",
+            "id": "f559be30e17ae7b7bdbca38a40b53498",
+            "name": "img1198437_19.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1198437_19.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8212e66cd88b577bf100b2c962f08fc4": {
+            "format": "BMP",
+            "id": "8212e66cd88b577bf100b2c962f08fc4",
+            "name": "img1198437_23.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1198437_23.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ddb64bd477df106e3d5c2297a88f6a9": {
+            "format": "BMP",
+            "id": "2ddb64bd477df106e3d5c2297a88f6a9",
+            "name": "img1199621_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1199621_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85d505e5a729f163b792578b595da786": {
+            "format": "BMP",
+            "id": "85d505e5a729f163b792578b595da786",
+            "name": "img1199621_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1199621_5.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aadf843e5443a0df16bf9bdc2701b019": {
+            "format": "BMP",
+            "id": "aadf843e5443a0df16bf9bdc2701b019",
+            "name": "img1199621_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1199621_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf3ce1acc99f4f2c25ee972f8d078e39": {
+            "format": "BMP",
+            "id": "bf3ce1acc99f4f2c25ee972f8d078e39",
+            "name": "img1200955_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8cd071743b68fff5836e69e7b5ba53ca": {
+            "format": "BMP",
+            "id": "8cd071743b68fff5836e69e7b5ba53ca",
+            "name": "img1200955_11.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_11.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3d189767213d53b4096f9800f5a65d75": {
+            "format": "BMP",
+            "id": "3d189767213d53b4096f9800f5a65d75",
+            "name": "img1200955_12.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_12.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c17cd7d3ab96871283f141a33e93ba3": {
+            "format": "BMP",
+            "id": "6c17cd7d3ab96871283f141a33e93ba3",
+            "name": "img1200955_13.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_13.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f097cf5e5029c1832d61fde6c9241f9e": {
+            "format": "BMP",
+            "id": "f097cf5e5029c1832d61fde6c9241f9e",
+            "name": "img1200955_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e39a5576526444b554ab0f9e67b55c1": {
+            "format": "BMP",
+            "id": "1e39a5576526444b554ab0f9e67b55c1",
+            "name": "img1200955_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b7725ca9ef9c9544f844f8e4851ed5d": {
+            "format": "BMP",
+            "id": "2b7725ca9ef9c9544f844f8e4851ed5d",
+            "name": "img1200955_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1200955_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bb987525228a2d0916b1c46d196a82ca": {
+            "format": "BMP",
+            "id": "bb987525228a2d0916b1c46d196a82ca",
+            "name": "img1201599_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1201599_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "561d318d1a1ee0b6a2d3fc302f97e93e": {
+            "format": "BMP",
+            "id": "561d318d1a1ee0b6a2d3fc302f97e93e",
+            "name": "img1205842_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1205842_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6d24af43e3ab61f8219c6708106dc25b": {
+            "format": "BMP",
+            "id": "6d24af43e3ab61f8219c6708106dc25b",
+            "name": "img1205842_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1205842_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c1aca4fa853ae76a7cbdd4ddfba1ed98": {
+            "format": "BMP",
+            "id": "c1aca4fa853ae76a7cbdd4ddfba1ed98",
+            "name": "img1219931_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1219931_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6a9f4e94091f8621f590faad9fe31228": {
+            "format": "BMP",
+            "id": "6a9f4e94091f8621f590faad9fe31228",
+            "name": "img1219931_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1219931_5.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "09662dd696139cbf3a6f9e006e9084ab": {
+            "format": "BMP",
+            "id": "09662dd696139cbf3a6f9e006e9084ab",
+            "name": "img1219931_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1219931_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "390b5d79e01b3965a10e71131e9ccebd": {
+            "format": "BMP",
+            "id": "390b5d79e01b3965a10e71131e9ccebd",
+            "name": "img1219931_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1219931_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3efe854aad7482ee05c38dacd8c1fe82": {
+            "format": "BMP",
+            "id": "3efe854aad7482ee05c38dacd8c1fe82",
+            "name": "img1219931_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1219931_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "640c82d421f7116e92063db9600b6aeb": {
+            "format": "BMP",
+            "id": "640c82d421f7116e92063db9600b6aeb",
+            "name": "img1221423_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1221423_16.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9dd25971931f8810e79b1d457e5366c2": {
+            "format": "BMP",
+            "id": "9dd25971931f8810e79b1d457e5366c2",
+            "name": "img1221423_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1221423_17.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "85adc1d9b136c6bc98fa4d0e49ade727": {
+            "format": "BMP",
+            "id": "85adc1d9b136c6bc98fa4d0e49ade727",
+            "name": "img1221423_18.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1221423_18.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "864d5e3f6476695646cf199ea71050f8": {
+            "format": "BMP",
+            "id": "864d5e3f6476695646cf199ea71050f8",
+            "name": "img12345_137.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img12345_137.BMP",
+            "size": {
+                "width": 351,
+                "height": 283
+            },
+            "state": 2,
+            "type": 1
+        },
+        "32b9b89e7fdfa0b3a67ed44c838f7b06": {
+            "format": "BMP",
+            "id": "32b9b89e7fdfa0b3a67ed44c838f7b06",
+            "name": "img12345_139.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img12345_139.BMP",
+            "size": {
+                "width": 343,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "631457ff0636c0ead8489bc8a82a828a": {
+            "format": "BMP",
+            "id": "631457ff0636c0ead8489bc8a82a828a",
+            "name": "img1234_34.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1234_34.BMP",
+            "size": {
+                "width": 351,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbb33b20d74801b7d16a0dbc05b6c7a9": {
+            "format": "BMP",
+            "id": "bbb33b20d74801b7d16a0dbc05b6c7a9",
+            "name": "img1234_49.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1234_49.BMP",
+            "size": {
+                "width": 346,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9d75da4400eef6246667fa942c48aea2": {
+            "format": "BMP",
+            "id": "9d75da4400eef6246667fa942c48aea2",
+            "name": "img1234_50.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1234_50.BMP",
+            "size": {
+                "width": 348,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "725063d0661a9f6a3a58b444ab93265f": {
+            "format": "BMP",
+            "id": "725063d0661a9f6a3a58b444ab93265f",
+            "name": "img124287_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img124287_17.BMP",
+            "size": {
+                "width": 348,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a0420c08241157dcfb157960326b102": {
+            "format": "BMP",
+            "id": "3a0420c08241157dcfb157960326b102",
+            "name": "img124287_18.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img124287_18.BMP",
+            "size": {
+                "width": 343,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e3ea2f23c127117056a849e3e84de046": {
+            "format": "BMP",
+            "id": "e3ea2f23c127117056a849e3e84de046",
+            "name": "img124287_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img124287_6.BMP",
+            "size": {
+                "width": 319,
+                "height": 275
+            },
+            "state": 2,
+            "type": 1
+        },
+        "50864a8ffe19cd77bd28f2bfa4632f42": {
+            "format": "BMP",
+            "id": "50864a8ffe19cd77bd28f2bfa4632f42",
+            "name": "img1259861_19.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1259861_19.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "796a1367bda21771877cd648fbf85465": {
+            "format": "BMP",
+            "id": "796a1367bda21771877cd648fbf85465",
+            "name": "img1259861_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1259861_20.BMP",
+            "size": {
+                "width": 348,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2c43f7bfcbddb3f3c7d8c6240d84543": {
+            "format": "BMP",
+            "id": "d2c43f7bfcbddb3f3c7d8c6240d84543",
+            "name": "img1259861_21.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1259861_21.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8c2b69e946496bddf3142921499c136": {
+            "format": "BMP",
+            "id": "c8c2b69e946496bddf3142921499c136",
+            "name": "img1259861_22.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1259861_22.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b14182faadb72dd4f86d275446d8cd4": {
+            "format": "BMP",
+            "id": "6b14182faadb72dd4f86d275446d8cd4",
+            "name": "img1262127_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1262127_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4c8cf036751dba821bf2840441cdddc6": {
+            "format": "BMP",
+            "id": "4c8cf036751dba821bf2840441cdddc6",
+            "name": "img1265322_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1265322_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "783e9051ce89abcb955fdc6b8a8161ec": {
+            "format": "BMP",
+            "id": "783e9051ce89abcb955fdc6b8a8161ec",
+            "name": "img1291054_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1291054_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "360a93592c2218bee6606ff62816dea9": {
+            "format": "BMP",
+            "id": "360a93592c2218bee6606ff62816dea9",
+            "name": "img1291054_11.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1291054_11.BMP",
+            "size": {
+                "width": 348,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "84483528c764492d49ab723f97d01014": {
+            "format": "BMP",
+            "id": "84483528c764492d49ab723f97d01014",
+            "name": "img1291054_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1291054_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "93489ba7f91d6a60283da6cd821cca33": {
+            "format": "BMP",
+            "id": "93489ba7f91d6a60283da6cd821cca33",
+            "name": "img1291116_12.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1291116_12.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5a0e318583dbb103c084d734343b901c": {
+            "format": "BMP",
+            "id": "5a0e318583dbb103c084d734343b901c",
+            "name": "img1294923_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1294923_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f396deadda0731ac05662c023748a9e": {
+            "format": "BMP",
+            "id": "6f396deadda0731ac05662c023748a9e",
+            "name": "img1296070_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1296070_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee385407f9b9e30a962c082a0b125f76": {
+            "format": "BMP",
+            "id": "ee385407f9b9e30a962c082a0b125f76",
+            "name": "img1296070_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1296070_17.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18c1cb3116c21240bf25d1b7fe8b878b": {
+            "format": "BMP",
+            "id": "18c1cb3116c21240bf25d1b7fe8b878b",
+            "name": "img1299881_30.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_30.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b4fcaf7f4380dce87e2b0cc81aff502": {
+            "format": "BMP",
+            "id": "7b4fcaf7f4380dce87e2b0cc81aff502",
+            "name": "img1299881_31.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_31.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4e9a50792cc40cfb7b43995d87fb01fe": {
+            "format": "BMP",
+            "id": "4e9a50792cc40cfb7b43995d87fb01fe",
+            "name": "img1299881_32.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_32.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4623fb049facbd09f14f53f9e3e9867a": {
+            "format": "BMP",
+            "id": "4623fb049facbd09f14f53f9e3e9867a",
+            "name": "img1299881_34.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_34.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "97ccdfec762255cdb22b40c16dc8473b": {
+            "format": "BMP",
+            "id": "97ccdfec762255cdb22b40c16dc8473b",
+            "name": "img1299881_35.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_35.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33a80533cb10164b64d86bea4c7db47b": {
+            "format": "BMP",
+            "id": "33a80533cb10164b64d86bea4c7db47b",
+            "name": "img1299881_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "aeba80919feaddc884fc59bd621fdb85": {
+            "format": "BMP",
+            "id": "aeba80919feaddc884fc59bd621fdb85",
+            "name": "img1299881_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa734ef249d671ead02a38a2c7bd185d": {
+            "format": "BMP",
+            "id": "fa734ef249d671ead02a38a2c7bd185d",
+            "name": "img1299881_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1299881_9.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "84227564a6fba72b50ee8933bee75718": {
+            "format": "BMP",
+            "id": "84227564a6fba72b50ee8933bee75718",
+            "name": "img1301169_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b31596fcb1c449b33e94cc8321b17cac": {
+            "format": "BMP",
+            "id": "b31596fcb1c449b33e94cc8321b17cac",
+            "name": "img1301169_12.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_12.BMP",
+            "size": {
+                "width": 348,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e019fe287252646e7d2991b66bdb761b": {
+            "format": "BMP",
+            "id": "e019fe287252646e7d2991b66bdb761b",
+            "name": "img1301169_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_15.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ee344aedc8f27b57eeb2df7da6dd902c": {
+            "format": "BMP",
+            "id": "ee344aedc8f27b57eeb2df7da6dd902c",
+            "name": "img1301169_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "47ae76730c2a8825607a2bc99e6a7a99": {
+            "format": "BMP",
+            "id": "47ae76730c2a8825607a2bc99e6a7a99",
+            "name": "img1301169_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_9.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "893378ba1b381a9570276e9b7b761b25": {
+            "format": "BMP",
+            "id": "893378ba1b381a9570276e9b7b761b25",
+            "name": "img1302167_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1302167_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0787cb3a39050b2f3fa0bc62163ac235": {
+            "format": "BMP",
+            "id": "0787cb3a39050b2f3fa0bc62163ac235",
+            "name": "img1302167_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1302167_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8cb93f4ffa7df5984610a1c0c633a347": {
+            "format": "BMP",
+            "id": "8cb93f4ffa7df5984610a1c0c633a347",
+            "name": "img1303435_21.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_21.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7d55162a13cf256b2bed1ad2fb48f727": {
+            "format": "BMP",
+            "id": "7d55162a13cf256b2bed1ad2fb48f727",
+            "name": "img1303435_22.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_22.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2041590defd83d448c5f0119158a1161": {
+            "format": "BMP",
+            "id": "2041590defd83d448c5f0119158a1161",
+            "name": "img1303435_25.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_25.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cc1ab2ede37ec089541a373f416eb716": {
+            "format": "BMP",
+            "id": "cc1ab2ede37ec089541a373f416eb716",
+            "name": "img1303435_3.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_3.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "10a9fc8894f8d6c6ec499457fe131fd1": {
+            "format": "BMP",
+            "id": "10a9fc8894f8d6c6ec499457fe131fd1",
+            "name": "img1303435_30.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_30.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "561aace1618934624f68adcdec77832e": {
+            "format": "BMP",
+            "id": "561aace1618934624f68adcdec77832e",
+            "name": "img1303435_31.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_31.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9e62c3f140f96572db3e3da69cfc803": {
+            "format": "BMP",
+            "id": "b9e62c3f140f96572db3e3da69cfc803",
+            "name": "img1303435_32.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_32.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9b26bff28e89d9a2fbc634444780e5b7": {
+            "format": "BMP",
+            "id": "9b26bff28e89d9a2fbc634444780e5b7",
+            "name": "img1303435_33.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_33.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7a48affa4461945e39cadf1d498d802e": {
+            "format": "BMP",
+            "id": "7a48affa4461945e39cadf1d498d802e",
+            "name": "img1303435_34.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_34.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "60127212bba4a6925002016e90a71da0": {
+            "format": "BMP",
+            "id": "60127212bba4a6925002016e90a71da0",
+            "name": "img1303435_35.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_35.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ad6a543687d8ed285734fea0d5124a9": {
+            "format": "BMP",
+            "id": "6ad6a543687d8ed285734fea0d5124a9",
+            "name": "img1303435_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00014adffcb14e0d7fbbed87a8efbb96": {
+            "format": "BMP",
+            "id": "00014adffcb14e0d7fbbed87a8efbb96",
+            "name": "img1303435_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1303435_5.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c65bdc8249a0b9119972e50d5378553": {
+            "format": "BMP",
+            "id": "6c65bdc8249a0b9119972e50d5378553",
+            "name": "img1309165_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1309165_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7e4cc600f0129fc7bc7040d446ab031c": {
+            "format": "BMP",
+            "id": "7e4cc600f0129fc7bc7040d446ab031c",
+            "name": "img1309165_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1309165_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "30aa683492306a63d4efba91a3cae744": {
+            "format": "BMP",
+            "id": "30aa683492306a63d4efba91a3cae744",
+            "name": "img1309165_3.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1309165_3.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5205a8c89b4ae8aefd11b9669cfdd3c8": {
+            "format": "BMP",
+            "id": "5205a8c89b4ae8aefd11b9669cfdd3c8",
+            "name": "img1327754_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1327754_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3fc8e57f0c00a713c3cc37046ce3a764": {
+            "format": "BMP",
+            "id": "3fc8e57f0c00a713c3cc37046ce3a764",
+            "name": "img1327754_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1327754_17.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3ff98e4ad0a3ffebd3218e27333fd2ed": {
+            "format": "BMP",
+            "id": "3ff98e4ad0a3ffebd3218e27333fd2ed",
+            "name": "img1331218_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1331218_20.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2b68fb7ed7160721b8b7aeccd3aea787": {
+            "format": "BMP",
+            "id": "2b68fb7ed7160721b8b7aeccd3aea787",
+            "name": "img1331218_21.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1331218_21.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "40b967c8de91ecebaee6f0cee2b5bd07": {
+            "format": "BMP",
+            "id": "40b967c8de91ecebaee6f0cee2b5bd07",
+            "name": "img1331218_22.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1331218_22.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9cbf49f25d9e13b7f327042bb52a4811": {
+            "format": "BMP",
+            "id": "9cbf49f25d9e13b7f327042bb52a4811",
+            "name": "img1333726_22.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1333726_22.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e34da03ed506ee9a4935dad917ec327a": {
+            "format": "BMP",
+            "id": "e34da03ed506ee9a4935dad917ec327a",
+            "name": "img1334211_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1334211_15.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7106ab5a9ed494c48c45a40486d38801": {
+            "format": "BMP",
+            "id": "7106ab5a9ed494c48c45a40486d38801",
+            "name": "img1338633_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1338633_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "089255a073b66f6061cbe0374fc986c2": {
+            "format": "BMP",
+            "id": "089255a073b66f6061cbe0374fc986c2",
+            "name": "img1350229_14.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1350229_14.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d2762e6c40afa7a753544b265882c07a": {
+            "format": "BMP",
+            "id": "d2762e6c40afa7a753544b265882c07a",
+            "name": "img1350229_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1350229_15.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "711c00e42a5e9d4c8a45d2a742836247": {
+            "format": "BMP",
+            "id": "711c00e42a5e9d4c8a45d2a742836247",
+            "name": "img1350229_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1350229_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d736b4ab17038a86809ade4afa0d8daa": {
+            "format": "BMP",
+            "id": "d736b4ab17038a86809ade4afa0d8daa",
+            "name": "img1359505_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1359505_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f6096b02431c08d5a9ba774280bb68ae": {
+            "format": "BMP",
+            "id": "f6096b02431c08d5a9ba774280bb68ae",
+            "name": "img1365058_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a420dad5081908b5a3cac7bff1964a0a": {
+            "format": "BMP",
+            "id": "a420dad5081908b5a3cac7bff1964a0a",
+            "name": "img1365058_11.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_11.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb7e06b69226a6f5f7d6cb53bd0a5171": {
+            "format": "BMP",
+            "id": "fb7e06b69226a6f5f7d6cb53bd0a5171",
+            "name": "img1365058_12.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_12.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a7445339f785f7939ea59ea23a6937c1": {
+            "format": "BMP",
+            "id": "a7445339f785f7939ea59ea23a6937c1",
+            "name": "img1365058_19.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_19.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "31a0a70d1361347a7a65801930307419": {
+            "format": "BMP",
+            "id": "31a0a70d1361347a7a65801930307419",
+            "name": "img1365058_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_20.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6ac133960dab94e329c27f0b26d76e68": {
+            "format": "BMP",
+            "id": "6ac133960dab94e329c27f0b26d76e68",
+            "name": "img1365058_21.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_21.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "68b259a0067d510fb89ec3ee8a5bd0e8": {
+            "format": "BMP",
+            "id": "68b259a0067d510fb89ec3ee8a5bd0e8",
+            "name": "img1365058_25.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_25.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "66738551a2f8ed3d3f61de4f15fa1fff": {
+            "format": "BMP",
+            "id": "66738551a2f8ed3d3f61de4f15fa1fff",
+            "name": "img1365058_28.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_28.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "313fb638c5b43e061522f958e6077386": {
+            "format": "BMP",
+            "id": "313fb638c5b43e061522f958e6077386",
+            "name": "img1365058_30.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_30.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d59f9002f0cf72c1fd4c6835bc8ad97": {
+            "format": "BMP",
+            "id": "4d59f9002f0cf72c1fd4c6835bc8ad97",
+            "name": "img1365058_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "702d2d4d492a7aa624bba91220536458": {
+            "format": "BMP",
+            "id": "702d2d4d492a7aa624bba91220536458",
+            "name": "img1365058_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c263da745f6a568e13fcb2fe5fb9f148": {
+            "format": "BMP",
+            "id": "c263da745f6a568e13fcb2fe5fb9f148",
+            "name": "img1365058_9.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1365058_9.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "712beb122e3d370f3de8cd4883ede2e0": {
+            "format": "BMP",
+            "id": "712beb122e3d370f3de8cd4883ede2e0",
+            "name": "img1382702_14.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1382702_14.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "58363f2cb0fb81b619bf450f237c3043": {
+            "format": "BMP",
+            "id": "58363f2cb0fb81b619bf450f237c3043",
+            "name": "img1382702_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1382702_17.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c45dd202cf534d2502468c4201d8f2d": {
+            "format": "BMP",
+            "id": "3c45dd202cf534d2502468c4201d8f2d",
+            "name": "img1382702_19.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1382702_19.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d017245649615ccf44a57222bdb7addc": {
+            "format": "BMP",
+            "id": "d017245649615ccf44a57222bdb7addc",
+            "name": "img1386230_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a80ba7dd968d50febe2207b20ef563b": {
+            "format": "BMP",
+            "id": "3a80ba7dd968d50febe2207b20ef563b",
+            "name": "img1386230_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_17.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8f380de8769c51df55952ceddbbc0015": {
+            "format": "BMP",
+            "id": "8f380de8769c51df55952ceddbbc0015",
+            "name": "img1386230_18.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_18.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ed3e49f0298b6899eb615a5fbd12f3f4": {
+            "format": "BMP",
+            "id": "ed3e49f0298b6899eb615a5fbd12f3f4",
+            "name": "img1386230_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4152ccd547b10381f1756d8627a37dde": {
+            "format": "BMP",
+            "id": "4152ccd547b10381f1756d8627a37dde",
+            "name": "img1386230_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_7.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "076505ddeed8aaa4afd11c4496089a23": {
+            "format": "BMP",
+            "id": "076505ddeed8aaa4afd11c4496089a23",
+            "name": "img1386230_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1386230_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e85d1c155938c442ee62ab41246ce4f0": {
+            "format": "BMP",
+            "id": "e85d1c155938c442ee62ab41246ce4f0",
+            "name": "img1387515_10.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1387515_10.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b98131c554c604297d18f4cee120aa86": {
+            "format": "BMP",
+            "id": "b98131c554c604297d18f4cee120aa86",
+            "name": "img1387515_14.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1387515_14.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e8eed0eebc5bff03b1cba3475f44c8a6": {
+            "format": "BMP",
+            "id": "e8eed0eebc5bff03b1cba3475f44c8a6",
+            "name": "img1391379_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1391379_20.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d464709cd02316211e01399983b1d91b": {
+            "format": "BMP",
+            "id": "d464709cd02316211e01399983b1d91b",
+            "name": "img1391379_35.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1391379_35.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "553652b5e4ff553fbd56d0d45d7644b1": {
+            "format": "BMP",
+            "id": "553652b5e4ff553fbd56d0d45d7644b1",
+            "name": "img1391379_37.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1391379_37.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4703585b1ffb8462ae0d3df9da3844f6": {
+            "format": "BMP",
+            "id": "4703585b1ffb8462ae0d3df9da3844f6",
+            "name": "img1392925_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1392925_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "823034abf68f5881ba1b8d9610e244b2": {
+            "format": "BMP",
+            "id": "823034abf68f5881ba1b8d9610e244b2",
+            "name": "img1395530_14.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_14.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d8eec86b4ad8ff28f16048ea6fb9368": {
+            "format": "BMP",
+            "id": "4d8eec86b4ad8ff28f16048ea6fb9368",
+            "name": "img1395530_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_15.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65cac446fb9173fedc487972d23e9ea3": {
+            "format": "BMP",
+            "id": "65cac446fb9173fedc487972d23e9ea3",
+            "name": "img1395530_16.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_16.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 1,
+            "type": 1
+        },
+        "1a71e7a3480a84616fade4e033e652d9": {
+            "format": "BMP",
+            "id": "1a71e7a3480a84616fade4e033e652d9",
+            "name": "img1395530_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b086361c87168f00e9ca920a982bdbee": {
+            "format": "BMP",
+            "id": "b086361c87168f00e9ca920a982bdbee",
+            "name": "img1395530_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_7.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d026cb0d2ad8ceb8040df72b9b5200d3": {
+            "format": "BMP",
+            "id": "d026cb0d2ad8ceb8040df72b9b5200d3",
+            "name": "img1395530_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395530_8.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "15d170b31f77ca036c10d432c15f320a": {
+            "format": "BMP",
+            "id": "15d170b31f77ca036c10d432c15f320a",
+            "name": "img1395799_8.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1395799_8.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b92ac6df0b5ff6bb8d6008f7ef5c39ee": {
+            "format": "BMP",
+            "id": "b92ac6df0b5ff6bb8d6008f7ef5c39ee",
+            "name": "img1397904_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1397904_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "218b97a8bf3e4b74b4716693470a5bef": {
+            "format": "BMP",
+            "id": "218b97a8bf3e4b74b4716693470a5bef",
+            "name": "img1398125_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1398125_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0fdea8b1a5c813e56bbf1cc679c739ac": {
+            "format": "BMP",
+            "id": "0fdea8b1a5c813e56bbf1cc679c739ac",
+            "name": "img1403334_13.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1403334_13.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "951639a4d49be2c39582f7beba596223": {
+            "format": "BMP",
+            "id": "951639a4d49be2c39582f7beba596223",
+            "name": "img1409486_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1409486_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8a4582a1f189d1ecab503441010a37d2": {
+            "format": "BMP",
+            "id": "8a4582a1f189d1ecab503441010a37d2",
+            "name": "img1412920_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1412920_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "40efc9f11f0c7e10bd27b7b7b50d2eff": {
+            "format": "BMP",
+            "id": "40efc9f11f0c7e10bd27b7b7b50d2eff",
+            "name": "img1412920_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1412920_4.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9143ef80d559f30254653b70d622a06": {
+            "format": "BMP",
+            "id": "d9143ef80d559f30254653b70d622a06",
+            "name": "img1413064_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1413064_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "db3974a08f00414cac9c3fe6056c1eb1": {
+            "format": "BMP",
+            "id": "db3974a08f00414cac9c3fe6056c1eb1",
+            "name": "img1413740_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1413740_6.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8e28e6122183ef1db2175888cf9b9382": {
+            "format": "BMP",
+            "id": "8e28e6122183ef1db2175888cf9b9382",
+            "name": "img1415673_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1415673_7.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bf8355b14e0c22ffd9c44e24a369768": {
+            "format": "BMP",
+            "id": "7bf8355b14e0c22ffd9c44e24a369768",
+            "name": "img1422994_15.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1422994_15.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "906c3a9f3de3ae0a4efa9d8a57bc438a": {
+            "format": "BMP",
+            "id": "906c3a9f3de3ae0a4efa9d8a57bc438a",
+            "name": "img1423738_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1423738_1.BMP",
+            "size": {
+                "width": 350,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6e013453b8214206a73fd442fd27b37d": {
+            "format": "BMP",
+            "id": "6e013453b8214206a73fd442fd27b37d",
+            "name": "img1427004_17.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1427004_17.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "093be642a2da20ad47ed02b344a60e6b": {
+            "format": "BMP",
+            "id": "093be642a2da20ad47ed02b344a60e6b",
+            "name": "img1427004_18.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1427004_18.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "27b4d51b000575fd0735a21428551df3": {
+            "format": "BMP",
+            "id": "27b4d51b000575fd0735a21428551df3",
+            "name": "img1427004_7.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1427004_7.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34351fb3857586e85b4382df054d9c10": {
+            "format": "BMP",
+            "id": "34351fb3857586e85b4382df054d9c10",
+            "name": "img1427787_13.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1427787_13.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "294b7eb673a32b4c9cf082bfb0b120cd": {
+            "format": "BMP",
+            "id": "294b7eb673a32b4c9cf082bfb0b120cd",
+            "name": "img1440454_1.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1440454_1.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1e03cda9f05f61a5b6d5f9f42ac2aea6": {
+            "format": "BMP",
+            "id": "1e03cda9f05f61a5b6d5f9f42ac2aea6",
+            "name": "img1440792_12.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1440792_12.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fdadea580d6bad5f9236186cdd375d27": {
+            "format": "BMP",
+            "id": "fdadea580d6bad5f9236186cdd375d27",
+            "name": "img1440792_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1440792_5.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4199aaea2e8b47b32280ac1726f908c1": {
+            "format": "BMP",
+            "id": "4199aaea2e8b47b32280ac1726f908c1",
+            "name": "img1440792_6.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1440792_6.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b796aa6478358b6e99e8eecfa7d559d1": {
+            "format": "BMP",
+            "id": "b796aa6478358b6e99e8eecfa7d559d1",
+            "name": "img1444884_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1444884_4.BMP",
+            "size": {
+                "width": 349,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dc176fec99537ce2665f0d6f984c269b": {
+            "format": "BMP",
+            "id": "dc176fec99537ce2665f0d6f984c269b",
+            "name": "img1453062_4.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1453062_4.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "31dc7e87b5ae1eb5fff59aeedeb5adf9": {
+            "format": "BMP",
+            "id": "31dc7e87b5ae1eb5fff59aeedeb5adf9",
+            "name": "img1454997_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1454997_2.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1d375c0c094b671407c7d658a31327a4": {
+            "format": "BMP",
+            "id": "1d375c0c094b671407c7d658a31327a4",
+            "name": "img1456188_5.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1456188_5.BMP",
+            "size": {
+                "width": 351,
+                "height": 280
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c18324e31aca5d9b40e2a430585cadf8": {
+            "format": "BMP",
+            "id": "c18324e31aca5d9b40e2a430585cadf8",
+            "name": "img1461534_2.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1461534_2.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        },
+        "470a9ea7ba2e97757fb8315c8b9976e5": {
+            "format": "BMP",
+            "id": "470a9ea7ba2e97757fb8315c8b9976e5",
+            "name": "img1468893_20.BMP",
+            "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1468893_20.BMP",
+            "size": {
+                "width": 352,
+                "height": 288
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

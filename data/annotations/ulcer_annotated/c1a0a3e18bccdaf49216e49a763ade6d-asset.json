@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "BMP",
+        "id": "c1a0a3e18bccdaf49216e49a763ade6d",
+        "name": "img12345_67.BMP",
+        "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/ulcers/img12345_67.BMP",
+        "size": {
+            "width": 351,
+            "height": 280
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "QOrGtwRAh",
+            "type": "RECTANGLE",
+            "tags": [
+                "ulcer"
+            ],
+            "boundingBox": {
+                "height": 55.616733661825734,
+                "width": 42.892893145161295,
+                "left": 280.7135836693549,
+                "top": 30.93701374481328
+            },
+            "points": [
+                {
+                    "x": 280.7135836693549,
+                    "y": 30.93701374481328
+                },
+                {
+                    "x": 323.60647681451616,
+                    "y": 30.93701374481328
+                },
+                {
+                    "x": 323.60647681451616,
+                    "y": 86.553747406639
+                },
+                {
+                    "x": 280.7135836693549,
+                    "y": 86.553747406639
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

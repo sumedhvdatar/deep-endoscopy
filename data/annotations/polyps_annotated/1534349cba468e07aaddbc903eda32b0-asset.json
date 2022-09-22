@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "BMP",
+        "id": "1534349cba468e07aaddbc903eda32b0",
+        "name": "img11340591_14.BMP",
+        "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img11340591_14.BMP",
+        "size": {
+            "width": 349,
+            "height": 280
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Mm5Cj06n9",
+            "type": "RECTANGLE",
+            "tags": [
+                "polyps"
+            ],
+            "boundingBox": {
+                "height": 85.01650165016503,
+                "width": 121.72308721315093,
+                "left": 45.53816609664607,
+                "top": 0
+            },
+            "points": [
+                {
+                    "x": 45.53816609664607,
+                    "y": 0
+                },
+                {
+                    "x": 167.261253309797,
+                    "y": 0
+                },
+                {
+                    "x": 167.261253309797,
+                    "y": 85.01650165016503
+                },
+                {
+                    "x": 45.53816609664607,
+                    "y": 85.01650165016503
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

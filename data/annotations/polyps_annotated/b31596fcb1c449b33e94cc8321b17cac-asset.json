@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "BMP",
+        "id": "b31596fcb1c449b33e94cc8321b17cac",
+        "name": "img1301169_12.BMP",
+        "path": "file:/Users/chandanar/Desktop/FYP/kims_annotated/polyps/img1301169_12.BMP",
+        "size": {
+            "width": 348,
+            "height": 280
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "3QobokMMO",
+            "type": "RECTANGLE",
+            "tags": [
+                "polyps"
+            ],
+            "boundingBox": {
+                "height": 118.31872249724974,
+                "width": 119.25207411504425,
+                "left": 36.647787610619474,
+                "top": 64.37843784378438
+            },
+            "points": [
+                {
+                    "x": 36.647787610619474,
+                    "y": 64.37843784378438
+                },
+                {
+                    "x": 155.89986172566373,
+                    "y": 64.37843784378438
+                },
+                {
+                    "x": 155.89986172566373,
+                    "y": 182.6971603410341
+                },
+                {
+                    "x": 36.647787610619474,
+                    "y": 182.6971603410341
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30584dfa-dcd1-4571-a5bf-9bf29fe5e554" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre-processing/get_crops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre-processing/train_test_split.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/00014adffcb14e0d7fbbed87a8efbb96-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/041765784d43b4bf4727c29f38df575e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/04da2fa30e75d12477618b1ec774bd0d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/05991c7aaaca712456fd5ca25e06c880-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/076505ddeed8aaa4afd11c4496089a23-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/0774dc34673f66dc20ed0725fa2500b6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/0787cb3a39050b2f3fa0bc62163ac235-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/079c0a2689abf51b1ae66a58213337ed-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/089255a073b66f6061cbe0374fc986c2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/093be642a2da20ad47ed02b344a60e6b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/09662dd696139cbf3a6f9e006e9084ab-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/0fdea8b1a5c813e56bbf1cc679c739ac-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/10a9fc8894f8d6c6ec499457fe131fd1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/14152b4f58bf5f7d403478d0e7a34bdb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1534349cba468e07aaddbc903eda32b0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/15d170b31f77ca036c10d432c15f320a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/18c1cb3116c21240bf25d1b7fe8b878b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1a01c94c9c5bcbad080924e086ef7897-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1a71e7a3480a84616fade4e033e652d9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1d375c0c094b671407c7d658a31327a4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1ddb3234abebacb98287551bef8f6900-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1e03cda9f05f61a5b6d5f9f42ac2aea6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/1e39a5576526444b554ab0f9e67b55c1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/2041590defd83d448c5f0119158a1161-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/218b97a8bf3e4b74b4716693470a5bef-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/244f3b4a7b0799ec37c3a1f89a47d3fb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/27b4d51b000575fd0735a21428551df3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/294b7eb673a32b4c9cf082bfb0b120cd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/2b68fb7ed7160721b8b7aeccd3aea787-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/2b7725ca9ef9c9544f844f8e4851ed5d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/2ddb64bd477df106e3d5c2297a88f6a9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/30aa683492306a63d4efba91a3cae744-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/313fb638c5b43e061522f958e6077386-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/31a0a70d1361347a7a65801930307419-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/31dc7e87b5ae1eb5fff59aeedeb5adf9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/325abb2540885d402c367018b3fe129b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/32b9b89e7fdfa0b3a67ed44c838f7b06-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/33a80533cb10164b64d86bea4c7db47b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/34351fb3857586e85b4382df054d9c10-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/360a93592c2218bee6606ff62816dea9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/390b5d79e01b3965a10e71131e9ccebd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3a0420c08241157dcfb157960326b102-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3a80ba7dd968d50febe2207b20ef563b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3c45dd202cf534d2502468c4201d8f2d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3d189767213d53b4096f9800f5a65d75-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3efe854aad7482ee05c38dacd8c1fe82-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3fc8e57f0c00a713c3cc37046ce3a764-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/3ff98e4ad0a3ffebd3218e27333fd2ed-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/40b967c8de91ecebaee6f0cee2b5bd07-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/40efc9f11f0c7e10bd27b7b7b50d2eff-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4152ccd547b10381f1756d8627a37dde-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4199aaea2e8b47b32280ac1726f908c1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4623fb049facbd09f14f53f9e3e9867a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4703585b1ffb8462ae0d3df9da3844f6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/470a9ea7ba2e97757fb8315c8b9976e5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/47ae76730c2a8825607a2bc99e6a7a99-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4c8cf036751dba821bf2840441cdddc6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4d59f9002f0cf72c1fd4c6835bc8ad97-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4d8eec86b4ad8ff28f16048ea6fb9368-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/4e9a50792cc40cfb7b43995d87fb01fe-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/50864a8ffe19cd77bd28f2bfa4632f42-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/5205a8c89b4ae8aefd11b9669cfdd3c8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/553652b5e4ff553fbd56d0d45d7644b1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/553772f450b073234a302c83f9845eb5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/561aace1618934624f68adcdec77832e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/561d318d1a1ee0b6a2d3fc302f97e93e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/57a21ea92dc405878f193e0840ac37b6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/58363f2cb0fb81b619bf450f237c3043-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/58ee3862670bca7576699df094fe76fe-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/5a0e318583dbb103c084d734343b901c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/5a36250a5f7f3e8c21b2a42af18c0b26-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/5d348841c152942591c81c48d8afa416-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/60127212bba4a6925002016e90a71da0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/631457ff0636c0ead8489bc8a82a828a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/640c82d421f7116e92063db9600b6aeb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/66738551a2f8ed3d3f61de4f15fa1fff-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/68b259a0067d510fb89ec3ee8a5bd0e8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6a9f4e94091f8621f590faad9fe31228-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6ac133960dab94e329c27f0b26d76e68-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6ad6a543687d8ed285734fea0d5124a9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6b14182faadb72dd4f86d275446d8cd4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6c17cd7d3ab96871283f141a33e93ba3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6c65bdc8249a0b9119972e50d5378553-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6d24af43e3ab61f8219c6708106dc25b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6e013453b8214206a73fd442fd27b37d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/6f396deadda0731ac05662c023748a9e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/702d2d4d492a7aa624bba91220536458-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/70a5b6d53553ca89417e275d4d326344-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7106ab5a9ed494c48c45a40486d38801-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/711c00e42a5e9d4c8a45d2a742836247-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/712beb122e3d370f3de8cd4883ede2e0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/725063d0661a9f6a3a58b444ab93265f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/778025e2ad92f3adf9b3afa52bb5763f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/783e9051ce89abcb955fdc6b8a8161ec-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/796a1367bda21771877cd648fbf85465-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7a48affa4461945e39cadf1d498d802e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7b4fcaf7f4380dce87e2b0cc81aff502-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7bf8355b14e0c22ffd9c44e24a369768-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7d55162a13cf256b2bed1ad2fb48f727-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7dee3d0080fcb423fc8be1a16f654a7e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/7e4cc600f0129fc7bc7040d446ab031c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8212e66cd88b577bf100b2c962f08fc4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/823034abf68f5881ba1b8d9610e244b2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/84227564a6fba72b50ee8933bee75718-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/84483528c764492d49ab723f97d01014-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8460d370b94f0cab511fba0e37a27d47-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/85adc1d9b136c6bc98fa4d0e49ade727-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/85d505e5a729f163b792578b595da786-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/864d5e3f6476695646cf199ea71050f8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/893378ba1b381a9570276e9b7b761b25-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8a4582a1f189d1ecab503441010a37d2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8cb93f4ffa7df5984610a1c0c633a347-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8cd071743b68fff5836e69e7b5ba53ca-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8e28e6122183ef1db2175888cf9b9382-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/8f380de8769c51df55952ceddbbc0015-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/906c3a9f3de3ae0a4efa9d8a57bc438a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/93489ba7f91d6a60283da6cd821cca33-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/951639a4d49be2c39582f7beba596223-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/96927dccc72144274896ec65e3df5b4b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/97ccdfec762255cdb22b40c16dc8473b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/9b26bff28e89d9a2fbc634444780e5b7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/9cbf49f25d9e13b7f327042bb52a4811-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/9d75da4400eef6246667fa942c48aea2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/9dd25971931f8810e79b1d457e5366c2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/a1d0e28f850b86f7fb1d9531726fd22c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/a420dad5081908b5a3cac7bff1964a0a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/a65bc86850e73070a2868799f6205222-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/a7445339f785f7939ea59ea23a6937c1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/aa0d164e5b36ff254d0fd6fb907510b5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/aadf843e5443a0df16bf9bdc2701b019-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/acb5075ac40d5563ea1d7a5ac7987ec4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/aeba80919feaddc884fc59bd621fdb85-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b086361c87168f00e9ca920a982bdbee-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b31596fcb1c449b33e94cc8321b17cac-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b796aa6478358b6e99e8eecfa7d559d1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b92ac6df0b5ff6bb8d6008f7ef5c39ee-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b98131c554c604297d18f4cee120aa86-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/b9e62c3f140f96572db3e3da69cfc803-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/bb987525228a2d0916b1c46d196a82ca-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/bbb33b20d74801b7d16a0dbc05b6c7a9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/be2c114940532f278a1cc1b1d4dc209e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/bf3ce1acc99f4f2c25ee972f8d078e39-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c0c8b7f37433f3a1cdb810e813fffca5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c18324e31aca5d9b40e2a430585cadf8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c1aca4fa853ae76a7cbdd4ddfba1ed98-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c263da745f6a568e13fcb2fe5fb9f148-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c7068a3ec9a2a8de93e2432faa371f32-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/c8c2b69e946496bddf3142921499c136-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/cb0cacc110ef552a8a25e6f987de6347-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/cc1ab2ede37ec089541a373f416eb716-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/ce722b12039cfece6d26828eb8320e96-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/ce97e691dee350f586b3033a5efdd67b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d017245649615ccf44a57222bdb7addc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d026cb0d2ad8ceb8040df72b9b5200d3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d03fac0619f4aa9f35f7a362746d63dd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d2762e6c40afa7a753544b265882c07a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d2c43f7bfcbddb3f3c7d8c6240d84543-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d464709cd02316211e01399983b1d91b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d736b4ab17038a86809ade4afa0d8daa-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d8d7d66b150f91e837f8c818a2b9cc72-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/d9143ef80d559f30254653b70d622a06-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/db3974a08f00414cac9c3fe6056c1eb1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/dc176fec99537ce2665f0d6f984c269b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/e019fe287252646e7d2991b66bdb761b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/e34da03ed506ee9a4935dad917ec327a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/e3ea2f23c127117056a849e3e84de046-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/e85d1c155938c442ee62ab41246ce4f0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/e8eed0eebc5bff03b1cba3475f44c8a6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/ed3e49f0298b6899eb615a5fbd12f3f4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/ee344aedc8f27b57eeb2df7da6dd902c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/ee385407f9b9e30a962c082a0b125f76-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/f097cf5e5029c1832d61fde6c9241f9e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/f1d2e632c6b1d00598958ca091a80ade-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/f559be30e17ae7b7bdbca38a40b53498-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/f6096b02431c08d5a9ba774280bb68ae-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/fa734ef249d671ead02a38a2c7bd185d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/fb7e06b69226a6f5f7d6cb53bd0a5171-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/fdadea580d6bad5f9236186cdd375d27-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/polyps_annotated/polyps kims.vott" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0075de7618ca016ad11178c4c4a862f9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/013e78776e9672ca2fff0fbbf101c8e6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/019064a3184985fa95b87cb954ee40f9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/01eda0fb35374f617ba83e2e65f7d889-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/02ab0eb6868571a95635b40de96898e3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/02afbfe4045e2843b99a019a37fed940-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0518ac624db55faf67ac954f2cb030f0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/05c75a6dacdb1be1de5a4d6638e890bc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0602fd6adeddf047cfe3765efcce0361-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/076ba5f0b3517d6d909050c01e283007-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0871235040b4556d5f3252303ed98cd7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/08df4870eafb00401dbad95e62e1007f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/08e0853fd6facafe1b6cf61baae7ce87-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0ac873e77f7a282466a5d43ae494d0cb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0b5cd9c8d5675d0d7701b76efac2e7bc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0bee429014a94bc018445ee777cd462d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0c4285a5a7d1fbcf918ca2944702a556-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0ddb0e08096e3958f92c273e90fe7fe2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0f94ac55b0fb7d961ec202aac62c5969-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/0fe3a73b10e65368febeefec719009ef-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/11dfcd2e757b1c60e809d2e0a316c2a5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/125e7031f568c3ba03687ea0dd71759d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/13f429d88c2192bd0258fff7fa376b30-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/14f9d75b409449b8e85f96df99298a52-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/15abd32ca9b9d81789334bde82260406-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1630ceb450e870546815096cf1c74abb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/163dd33d92b3765dbd7b3563f51279f4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/169a66683f00ba068a056ea983cc6d11-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/18e3513a7cb9ee04ec4fccf6f5d0bb13-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1987d2b90fef13cf6701d2f8d18dcb89-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1ac5a3b327f9a9e02df3bdf2e2ab4b21-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1b7b5475123b937aa0048f589fab6c3d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1cb2c6448736c86147b53bee2d47c071-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1d14e23b0f1b22b741f3ae33a0fd2742-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1eee1ce86752ad30f2bf30beeb4640e3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/1f718b4a55bef89c6a9724c176673654-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/202a5c34070f634845a25966e61944e5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/212c8b13d784058c756160fba568c333-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/22022fa3f98a0a367d6d104c09f0cba8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/230f8439c5d7c76467c79448fb0fe60e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/23c63834cec7b3e0f6ee63ba9b69e83c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/23dec97e43ece9cca269b02770fb7258-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/25fd0d9dd514edd876523e3096e5ba1d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/28bb3c72a7069c156fab38cc757c39df-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/2b6cf94969f45d2eb0187b6272e5a193-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/2bf787c5685dbaba4d9810f5b9ea7dd1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/2c54254816f4a15fc81085395982d7d7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/2f50136abe8ffa40148bf9b104bfedb6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/309a73512507d1402eb8b73bed15324d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/31983ded7db55f27b45f4ad2f6bb4127-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/31de6f5d90b606b69c492b2beb471fb1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/328f5fb9a5e28f88ce19da5ecb51cae0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/32c4c01ad7b0a0dea999b81778b0558e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/3300d3a4b0c8d793406b7bd644f1c2af-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/3353c794d319d06bb713922dfba7ece1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/36a87070b5ffec62858e21d56c767c69-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/36c7efde26d164c3c561a26a49eae175-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/3a101b49f9b3eef7e3af6f8097e3bda7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/3baca56975d12b774b1bf0faffd7e2bb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/3fbd1bc19be5b847813a393e275a2d84-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/40e9e803d588d7a97e2de8f27af9cf5c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/42a19a7156734a6ef0a089396587e565-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/443c2df559546e11de8cbd2125179c70-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4587aeed22d0be206185171afaaa2694-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/45d832d8c47229770e5ea7a3afcf663a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/47281458427ab6aca308efb53753b2fb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/47b4768e55a27ff2c7db883d9e4f3520-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/47ba313a4ee5ac7006028d7ba1b7e393-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4a0a6c46b01d3f769c10d0ec5c757f09-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4a71d7bcb28da686baed7eb691e73ddc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4acd71da607d0dbb23a4bd99b8bfa5de-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4ad395a49c649a49b4bd24ee2ba36567-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4aef059f1f027f88e85b4d2bf75d6da1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4cbcf3dae4b27d43c4fa4e6d6d90d46f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4f81650c3f716db0d22bda7857d54599-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/4fe72f1bb558a54b55a733ab171f713a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5026bea9a835eeb816653f26aa9eb975-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/51dfa75e6d8fefacc706b954e8e58e77-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/544ed5021bd8a790ef5b6d7d019460b0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/54db5a2806d5cbf703d2f03a68b7a0ce-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/55a6d55870d18c168400f0f26d444e9a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/56baffb3cbce3f97e80945884eee4d5e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5a6c2d86767eeddebf5d86b14a9ccbe3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5bab287c4dcf7a5900b2bb5207141a30-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5bb6c339d3c4143a4a6bf4293a93c983-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5c9730e5e6e88886ae48de2558a668c6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5e24f68e402a489944f963e999e4add8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5e5281a790009dfa22b70365f6e68276-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/5f9e52e74d4d1c905a7702c24da0e7af-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/60bce4a3f166ac14feee5b3c02eadfca-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/61b1b963f42c8161a9c75396db9f33b9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/624dcc78ff7c0fae8652e1f474d70c40-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/63a8b64806f80a8a720ca48303a7daad-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6648a1bc536191de08897e644f340850-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/664def03471835d8bfe5f43784eec707-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/68f582a6182f292ee94920a2796579dd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/693386e9ed714460aed25112dfbd5d7c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6980b9b7f18087a2ee9a6d29ef4d7b65-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6bc6405d13431a4ba522c57d8423d4df-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6c4dec1e84b474298f2c07f483fa34be-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6dc20c1dc2e11594c4695b25e14c472a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6f9408af1fc3e188222fac3abaa4bbdc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/6fa7b3428240806f4150bf843bf85f8a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/71a364a707a9a5b369f082a8947a423f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/71aff4e4be17f10345b128fd713ef261-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7239b12879591a4bcd2694ecf74af61e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/732336dd0425aaa6245c12bf93160fde-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/73750cd9cfa5a7b85890d5450777627e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/73a4ec7e101f287042201b2eb148e0f3-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/742b5f9ead8282732d72f74401b9e594-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/74d6963c8a88ad39f5a5ee64e528f4b1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/75d44a36fae7cba1f88b2010f6174b9c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/764c2edf9b97b092c78f3d0dc2d0d925-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7701cb684bf314741b8addb5c2898038-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/77238f22d8093281348d47e0aa27dc56-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/78c75cedf20db8c857c49d5285cd1f97-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/78ec66e281cbe2e01741edcfdbe0f2ae-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7a0553acc6035ade3dcab56b4afb00de-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7bbdea780ce8812ef0a5756a862f2067-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7de2a1c901d87eaf53fd615f3d223dc4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7e42b056ee9d8392077c5755409814c8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/7ee99bcc013830808cefb2017b9a63f9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8047d5e841829541ec1d21daeddeaed1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/80ed5f836966cc5af4520d94628432ff-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/81ffb92c8114bd5ac2a8e3a042998e54-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8407d27333924b8d4a37b34e4f4aa26d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8420b3c2d0353097d5bfd032ce77bbb0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/858d0b22dc5b95083fc02eab414fd7b4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/86bacce852cc3a52ca42a1022527b770-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/86d73d87e8d0e14b1cd976365b5f4ebf-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8811e8d300fbf6daac6fd4bafa4ae777-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8816f756e33a4aa18cac78e090fe6ed6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8818e7dc379616c9f88477b6ce17079d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/890bae0e3413d1633d61ecadc048f281-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/89139459cd794c378ed309bdecf18d55-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/89a84e0ecbb36b45d3ce2a6fd77d8313-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8a8b0336b72c8eb3b2d126d8a0dbbe8f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8b0a386c22aa02b3750558f1b553a945-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8b34297d6835f5b42d9c1b59dfcfc5f5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/8e93ad081e93038832cd03366db36456-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9159609e2e191d0b0a25c1b5ed2f23ef-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9289bf6ef917e18b55b4b6bcedac39c8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9391158fc10c1f5c9955742d9391ad95-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9486dc3234e6d3691dd7fc238b445dbe-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/95f47b8222afe3c80f23cc3f559e4179-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/962ccb5de25b187e7b1e627c4155a1f5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/977621c7675ed2003d698b2df66a5b4f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/97a74a1f54840ffc1523cc7f44ef90aa-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9924b62aba3576cac3469540ea8f97f7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9930c95f4a1cbb0563588bff0d2e5383-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/99cb0f5f7005d0514d2bb1c27e741ada-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9ba42f7a16e683b9680ddedd3e86fa78-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9ca1bb65520a74b37804042b6f1b3e7a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/9d8ad669bd1900e5fb5547561e1836b8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a263f4bb4e242ffb647ce329319e4cc5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a3410a5fc6b371204d4a01454e1cce04-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a3fa1df6d5b28e588a572cfbd51338c5-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a45438806e537d553f6be007d09b2e53-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a673b2aa4b58c043b03fe18c3445e15b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a6ff0fb8af9066cc8a65e4d7dd9e503e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/a8d49103258fed4e5316c5544c0352d1-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ac41596932e60c56a642cd249a9ffcfc-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ad62977288d5c3ee63816c2bbd24d6ba-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/adaff5f1832a8190fcdf46e40d6db872-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/af042a7f6de7b48dc2e078da7a45cff0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/af24fa8643f1f21c78003742a0e2c95c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b088539d6d088121770d9a5ba30785cf-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b1516f0b39856c3c795b7b276cc79aef-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b317f20df8af726a4031b66c40c1239c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b49e17a255d0b119316fa4d1536aa584-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b868acd4207e9c77f17a98770ec53fd9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b88015616a6068d15632cb96e744ae47-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/b8c842cc8a662fec798a928f61af5477-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ba5b1efa376ec9181c80a63302df538e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/bb3f7a7af482976dd4b3259787e5db5a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/bbd74d2c8ed062fac73ad55623c24880-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/beb64c954faf867bfd4b8ad86b989978-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c01879c57794d4e1ac0d5551a2ad797f-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c11b1d09a09cac0d02dcdac1df742024-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c1a0a3e18bccdaf49216e49a763ade6d-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c50499297d5c1b7aa020725fe3a0c21a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c64e3245ae0cf2fc54d7850af28e4119-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c7697159ba3a8f4674a6556ce9d76529-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c85bc67ec5bd95d5eb3ec1ec453e1cc4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c8d94695cf1de692f30e18e4faba1bd2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/c9e1e393e34acfde174e2151517f4972-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ca14302019467640defc12605445396a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ca5c1413f03eae965a13bb283289977c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/cb8d6661b4d32e48cb5863bcebdbfc76-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/cc1d20ce4c95d46342f1f6f6fa2683cb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/cdcee0f00dd370269a317f3581387f63-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ce46ebde5002d20fd981e89c81232cb7-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d023912a689c9053d356d20689bb8738-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d08695a17c865cab51a4ae236901ab65-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d22b671a2fdb4085f3a8f521c9a8a82b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d2804a38d80b9af82ccd6bc6ff13cb22-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d34b9b5d340a76a749861d7dbdd715d9-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d396c3ba2d931905a90d0ed5b19fb657-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d3e25eb9b6610028fcb2b695211e7000-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d62a90f7810291de996a69fc97a40f3b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d6a9070d29d9a7f8b7dd41845318f658-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d6b43225bd040b2ed70b3b976060dba4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d7880d4ad9029f8514c3485a6c59e0fd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/d9aec479062d334dd2b28da04a9ec864-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/dbf5a5f8d7fb6049ba58d353d359fbcd-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/dc2b83908098300f87c8e72ccd32f968-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e1845e44f0fcded4f5e6e76b849ed2cb-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e1f14599ae02176233e11f78b35248a2-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e25403ab5314210a69066cb0f5855a9e-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e679767509a94911dd59f6d7561f0b03-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e76a6f526c17d6562ff5dfff3aa59ec6-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e7bc1dc0e2345ec5cde71d8feaea25ef-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/e82f2da7a21fc7b3441eb09acaab3d3c-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ea56562f4e4eb4f8c752cc267e0b4cf8-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/eab86c14d67b09e1a8ee0efd23851902-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ede789753f7d3d99ec1e64eba7603c75-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f063f96a82fa116959eabaaf417c6dc0-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f071bce6dd2b8cc131b5ead2adb58c8b-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f2bc829741c707ccffe31f9b1f0f0270-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f2d5fe41c1f5b4e2a558168200e9ee32-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f382948db752e2eb7d408c71e736bc81-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f48194627791f6a6c5e9448dee99b5e4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f75551bc4016a4a2e4afe2fa9996fc36-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f7575b4530a68f2d71be71e76df9af18-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f88b376235ce0e57bf91ecd50b036464-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f8f9e3ed8cbf5b240e773559880fa006-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f97eece2031b0776e54bb55eb2eef814-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/f99d9d28baebca48855c53511409e5d4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/fabf05d7beb1b1dea4103a265aa17cd4-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/fbb3375d8db81486518a6dafd6ef1d5a-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ff3780fd801675b13932b4198ba058ee-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/annotations/ulcer_annotated/ff65b4be0133a55a6e37d0c74f8b2681-asset.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img 1650330_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1009478_15.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1009478_16.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1009478_17.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1009478_18.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1014362_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1028953_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img103427_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img103427_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1035260_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1035260_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1035260_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1035644_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1036553_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1036553_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1042266_18.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1042428_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1043647_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1054019_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1059889_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1085154_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1116297_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1126606_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1126723_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1126911_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1151597_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1151597_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1161963_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1164714_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1167262_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1168422_27.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1169217_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1173034_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1173373_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1173626_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1174155_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1174216_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img117605_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1177887_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1183485_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1183871_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1184163_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1184952_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1187437_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1189569_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1195886_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1197417_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1197826_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1198240_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1199509_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1199509_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1200602_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img120444_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1205333_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1205333_11.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1205333_12.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1206952_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1206984_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1206984_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1206984_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1206984_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1210130_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1216937_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1217871_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1217871_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1217871_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1218166_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1218166_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1232155_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1232713_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1234567_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_131.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_132.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_362.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_397.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_398.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_399.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_96.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_97.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img123456_98.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_387.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_388.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_392.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_393.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_401.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_402.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_409.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_410.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_42.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_58.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img12345_67.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1234_228.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1234_229.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242161_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242579_13.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242579_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242579_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242579_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1242579_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1249660_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1254406_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1254406_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1266292_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1269834_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1270791_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1271928_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1287570_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1291661_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1291907_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1291907_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1303039_11.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1303807_12.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1303807_13.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1303807_14.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1303984_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img130944_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1315201_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1315346_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1322369_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1332183_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1332859_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1332859_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1339477_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1342164_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1342164_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1342177_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1343693_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1354055_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1359709_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1359747_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1363438_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1364615_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1364894_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1367361_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img136812_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img136957_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1375322_20.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1377952_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1377952_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1384574_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1387515_14.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1389923_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1390120_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1390120_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1390938_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1390963_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1392622_11.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1398125_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1398723_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1398723_12.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1398723_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1403313_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img140337_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1405145_14.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1405241_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1405241_11.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1407474_19.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1412920_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1412920_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1419470_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1419470_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1419470_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422488_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422488_11.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422488_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422607_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422761_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422906_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422906_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422906_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1422954_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1423049_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1423112_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1424021_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1424021_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1424021_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1424246_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1425744_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1425744_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1425744_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1426895_12.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1426895_14.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1426895_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1427018_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1427018_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1427957_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1427957_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img142871_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1429034_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1429034_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1430871_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1430871_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1430871_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1430871_32.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1430871_34.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1431090_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1431318_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1431612_5.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1431612_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432104_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432104_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432104_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432104_9.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432241_17.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432241_18.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432532_18.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432532_21.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432532_22.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432532_23.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432820_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432820_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1432954_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1433179_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1433179_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1437316_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1439527_12.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1439605_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440172_13.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440172_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img144027_13.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_2.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_4.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_7.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440454_8.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440664_16.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1440667_10.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1447309_3.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1447404_1.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1447404_6.BMP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/raw_images/ulcers/img1448209_14.BMP" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pre-processing/get_crops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pre-processing/train_test_split.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35/Lib/site-packages/scipy/stats/morestats.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pre-processing/get_crops.py" />
+        <option value="$PROJECT_DIR$/pre-processing/train_test_split.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-45" />
+    <option name="y" value="200" />
+    <option name="width" value="2410" />
+    <option name="height" value="1315" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="crops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="data_set" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="data_set" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="raw_images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="deep-endoscopy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deep-endoscopy" type="462c0819:PsiDirectoryNode" />
+              <item name="pre-processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train_test_split">
+    <configuration name="get_crops" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep-endoscopy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pre-processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre-processing/get_crops.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_test_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep-endoscopy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pre-processing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre-processing/train_test_split.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_test_split" />
+        <item itemvalue="Python.get_crops" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30584dfa-dcd1-4571-a5bf-9bf29fe5e554" name="Default Changelist" comment="" />
+      <created>1663916107838</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663916107838</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pre-processing/get_crops.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pre-processing/get_crops.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pre-processing/train_test_split.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pre-processing/get_crops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35/Lib/site-packages/scipy/stats/morestats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pre-processing/train_test_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
